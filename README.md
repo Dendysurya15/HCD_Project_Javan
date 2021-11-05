@@ -1,4 +1,4 @@
-##Setup Project
+## Setup Project
 
 - Clone this project
 - Composer install on command line or git bash
