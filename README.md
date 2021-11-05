@@ -1,9 +1,13 @@
 ##Setup Project
 
 - Clone this project
-- Create new datebase with name **db_hcd**
 - Composer install on command line or git bash
-- 
+- Make new .env file with **cp .env.example .env** and  create a new database with the same name on **DB_DATABASE**
+- Generate new key with **php artisan key:generate** in command line or git bash
+- migate all table with **php artisan migrate**
+- Seed your database with **php artisan db:seed**
+- Run your local server machine(Xampp, etc)
+- Run your project with **php artisan serve**
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
